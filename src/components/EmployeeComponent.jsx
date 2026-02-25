@@ -80,9 +80,9 @@ const EmployeeComponent = () => {
     }
 
   return (
-    <div className='max-w-xl mx-auto mt-12 mb-20 relative'>
-        <div className="mb-6">
-            <Link to="/employees" className="text-gray-400 hover:text-purple-400 transition-colors flex items-center gap-2 text-sm font-medium">
+    <div className='max-w-xl mx-auto mt-8 sm:mt-12 mb-16 sm:mb-20 px-4 sm:px-0 relative'>
+        <div className="mb-4 sm:mb-6">
+            <Link to="/employees" className="text-gray-400 hover:text-purple-400 transition-colors flex items-center gap-2 text-sm font-medium w-fit">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                 </svg>
@@ -90,7 +90,7 @@ const EmployeeComponent = () => {
             </Link>
         </div>
 
-        <div className="glass-panel relative overflow-hidden p-8 sm:p-10 border border-gray-800/80 rounded-2xl shadow-2xl">
+        <div className="glass-panel relative overflow-hidden p-6 sm:p-10 border border-gray-800/80 rounded-2xl shadow-2xl">
             {/* Glow effect */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-purple-600/10 rounded-full blur-[80px] -z-10 transform translate-x-1/2 -translate-y-1/2"></div>
             
